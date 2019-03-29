@@ -10,9 +10,9 @@
 
 const int TABLE_SIZE = 10010;
 
-bool hashTable[TABLE_SIZE] = {false};
+static bool hashTable[TABLE_SIZE] = {false};
 
-int hashTable2[TABLE_SIZE] = {0};
+static int hashTable2[TABLE_SIZE] = {0};
 
 int hashTable3[26 * 26 * 26 + 10] = {0};
 
